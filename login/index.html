@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://t3.ftcdn.net/jpg/04/99/95/82/360_F_499958241_PEy464Q1g1xvdAZf3tkrQ1dyfhI0KVMg.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bek Hotel</title>
+</head>
+<body>
+    <div class="container-fluid con">
+        <div class="row">
+            <h1 class="pt-3 text text-left px-5 col-xxl-9 col-xl-6 col-lg-6 col-sm-5 col-10">Bek Hotel</h1>
+            <a class="pc h1 my-4 text-end col-xxl-1 col-xl-2 col-lg-2" href="/index.html">Home</a>
+            <a class="pc h1 my-4 text-end col-xxl-1 col-xl-2 col-lg-2" href="/about/index.html">About</a>
+            <a class="pc h1 my-4 text-end col-xxl-1 col-xl-2 col-lg-2" href="#">Login</a>
+            <div class="imgm menu mx-5" onclick="och(this)">
+                <img src="/img/menu.png" class="img-fluid imgs rounded float-end"  alt="">
+            </div>
+        </div>     
+        <div id="menyu">
+            <a href="/index.html" class="text links h1 an">HOME</a>
+            <a href="/about/index.html" class="text links h1 an an2">ABOUT</a>
+            <a href="#" class="text links h1 an an3">LOGIN</a>
+        </div>
+    </div>
+    <div class="imgh">
+        <img src="https://bek-hotel.netlify.app/img/hotel.jpg" alt="" class="img-fluid col-12">  
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="login form-floating input1">
+                <div class="up col-6">
+                    Sign-up
+                </div>
+                <div class="up in">
+                    Sign-in
+                </div>
+                <a>
+                    <div class="email col-12 form-floating">
+                        <input type="text" class="form-control input" id="email-input" placeholder="Enter e-mail">
+                        <label for="email-input" class="lab">Enter e-mail</label>
+                    </div>
+                    <div class="email col-12 form-floating">
+                        <input type="password" class="form-control input" id="password-input" placeholder="Enter password">
+                        <label for="password-input" class="lab">Enter password</label>
+                    </div>
+                    <div class="email col-12 form-floating">
+                        <input type="text" class="form-control input" id="password-input2" placeholder="Enter the password again">
+                        <label for="password-input2" class="lab">Enter the password again</label>
+                    </div>
+                    <div class="email col-12 form-floating">
+                        <input type="number" id="age" class="form-control input" placeholder="Enter your age">
+                        <label for="age" class="lab">Enter your age</label>
+                    </div>
+                    <div class="email col-12 form-floating">
+                        <input type="submit" class="form-control input" value="Submit">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
